@@ -37,9 +37,10 @@ namespace NigerianFoodPredictor
 
             // Request headers -
             client.DefaultRequestHeaders.Add("Prediction-Key", "1a35b84639d14bb09af9139e754c8f8c");
+            
 
-            // Prediction URL - my nigerian food predictor 
-            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/4d5d3bfa-e477-452d-bef9-29afa749fbc1/image?iterationId=08aa5a19-83e8-4d10-a49c-5c39ac93354c";
+            // Prediction URL - my nigerian food predictor url
+            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/4d5d3bfa-e477-452d-bef9-29afa749fbc1/image?iterationId=c23b9505-857b-4767-8a39-033df95d90dd";
 
             HttpResponseMessage response;
             String response_json;
@@ -75,7 +76,17 @@ namespace NigerianFoodPredictor
                         suggestions += tag + ", ";
                     }
                 }
-                Console.WriteLine("I think this is " + suggestions.Remove(suggestions.Length -2 , 1));
+
+                if(suggestions != "")
+                {
+                    Console.WriteLine("I think this is " + suggestions.Substring(0,suggestions.LastIndexOf(",")));
+                }
+                else
+                {
+                    Console.WriteLine("I don't know what this is");
+                }
+
+                
             }
         }
     }
