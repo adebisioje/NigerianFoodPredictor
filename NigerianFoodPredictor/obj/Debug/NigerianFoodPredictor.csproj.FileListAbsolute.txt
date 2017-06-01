@@ -1,0 +1,6 @@
+c:\users\adoje\documents\visual studio 2017\Projects\NigerianFoodPredictor\NigerianFoodPredictor\bin\Debug\NigerianFoodPredictor.exe.config
+c:\users\adoje\documents\visual studio 2017\Projects\NigerianFoodPredictor\NigerianFoodPredictor\bin\Debug\NigerianFoodPredictor.exe
+c:\users\adoje\documents\visual studio 2017\Projects\NigerianFoodPredictor\NigerianFoodPredictor\bin\Debug\NigerianFoodPredictor.pdb
+c:\users\adoje\documents\visual studio 2017\Projects\NigerianFoodPredictor\NigerianFoodPredictor\obj\Debug\NigerianFoodPredictor.csprojResolveAssemblyReference.cache
+c:\users\adoje\documents\visual studio 2017\Projects\NigerianFoodPredictor\NigerianFoodPredictor\obj\Debug\NigerianFoodPredictor.exe
+c:\users\adoje\documents\visual studio 2017\Projects\NigerianFoodPredictor\NigerianFoodPredictor\obj\Debug\NigerianFoodPredictor.pdb
