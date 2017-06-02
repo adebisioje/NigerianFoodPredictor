@@ -40,7 +40,7 @@ namespace NigerianFoodPredictor
             
 
             // Prediction URL - my nigerian food predictor url
-            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/4d5d3bfa-e477-452d-bef9-29afa749fbc1/image?iterationId=c23b9505-857b-4767-8a39-033df95d90dd";
+            string url = "https://southcentralus.api.cognitive.microsoft.com/customvision/v1.0/Prediction/4d5d3bfa-e477-452d-bef9-29afa749fbc1/image?iterationId=863f397b-6946-41bd-937f-170ad56d2ef7";
 
             HttpResponseMessage response;
             String response_json;
@@ -70,7 +70,6 @@ namespace NigerianFoodPredictor
                 {
                     JObject prediction = (JObject)predictions[i];
                     var probability = prediction.GetValue("Probability");
-                    if(Convert.ToDouble(probability) > 0.70)
                     {
                         var tag = prediction.GetValue("Tag");
                         suggestions += tag + ", ";
